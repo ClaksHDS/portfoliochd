@@ -1,10 +1,23 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navbar, Sidebar, Footer } from "../src/components";
+import { Home, Projects, SingleProject, About, Contact, Error } from "./pages";
+
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <p>Portfolio</p>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Sidebar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='projects' element={<Projects />} />
+        <Route path='projects/:id' element={<SingleProject />} />
+        <Route path='about' element={<About />} />
+        <Route path='Contact' element={<Contact />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 

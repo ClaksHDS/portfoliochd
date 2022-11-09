@@ -1,13 +1,129 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500&family=Sacramento&display=swap");
+
+html {
+  font: 100%;
+}
+
+:root {
+  /* Colors */
+  --backgroundColor: #fffffe;
+  --cardBackground: #faeee7;
+  --textColor: #594a4e;
+  --headlineColor: #33272a;
+  --secondaryColor: #ffc6c7;
+  --highlightColor: #ff8ba7;
+  --tertiaryColor: #c3f0ca;
+
+  /* Fonts */
+  --textFont: "Figtree", sans-serif;
+  --headlineFont: "Sacramento", cursive;
+  --small-text: 0.875rem;
+  --extra-small-text: 0.7rem;
+
+  /* Other variables */
+  --borderRadius: 0.3rem;
+  --transition: 0.3s ease-in-out all;
+  --maxWidth: 1120px;
+  --fixedWidth: 500px;
+  --fluidWidth: 90vw;
+  --nav-height: 6rem;
+
+  /* Box Shadows */
+  --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-3: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Global Styles */
+body {
+  background: var(--backgroundColor);
+  font-family: var(--textFont);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--textColor);
+}
+
+p {
+  margin-bottom: 1rem;
+  max-width: 40em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: var(--headlineFont);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Loading spinner */
+.loading {
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  border-top-color: var(--highlightColor);
+  margin: 2rem auto;
+  animation: spinner 0.5s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
 }
