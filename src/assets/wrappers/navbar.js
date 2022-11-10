@@ -4,6 +4,9 @@ const Wrapper = styled.nav`
   height: 5rem;
   display: grid;
   place-items: center;
+
+  box-shadow: var(--shadow-2);
+
   .nav-center {
     width: 90vw;
     margin: 0 auto;
