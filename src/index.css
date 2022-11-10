@@ -111,6 +111,18 @@ ul {
   object-fit: cover;
 }
 
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--maxWidth);
+}
+
+@media screen and (min-width: 990px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+
 /* Loading spinner */
 .loading {
   width: 5rem;

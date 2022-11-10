@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/images/logo.svg";
 import { socials } from "../utils/data";
 /* Styles */
 import Wrapper from "../assets/wrappers/footer";
