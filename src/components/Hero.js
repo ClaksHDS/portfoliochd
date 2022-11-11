@@ -23,7 +23,7 @@ const Hero = () => {
       </article>
       <article className='content'>
         <h1>clarisse hd</h1>
-        <p>web developer</p>
+        <p>web developer & enthusiastic learner</p>
 
         <ul className='social-links'>
           {socials.map((socialLink) => {
