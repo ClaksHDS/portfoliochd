@@ -4,6 +4,8 @@ import {
   SlSocialLinkedin,
   SlSocialInstagram,
 } from "react-icons/sl";
+import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io";
+import { FaReact, FaNode } from "react-icons/fa";
 
 export const links = [
   { id: 1, text: "home", url: "/" },
@@ -24,4 +26,12 @@ export const socials = [
     url: "https://www.instagram.com/mediacolorpalette/",
     icon: <SlSocialInstagram />,
   },
+];
+
+export const skills = [
+  { id: 1, icon: <IoLogoHtml5 />, text: "HTML 5" },
+  { id: 2, icon: <IoLogoCss3 />, text: "CSS 3" },
+  { id: 3, icon: <IoLogoJavascript />, text: "JavaScript" },
+  { id: 4, icon: <FaReact />, text: "React" },
+  { id: 5, icon: <FaNode />, text: "Node.js" },
 ];
