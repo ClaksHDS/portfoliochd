@@ -36,7 +36,7 @@ const Wrapper = styled.aside`
     transition: var(--transition);
   }
   .links a:hover {
-    background: #fff4f4;
+    background: var(--cardBackground);
     color: var(--headlineColor);
     padding-left: 3rem;
   }
