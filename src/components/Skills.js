@@ -27,11 +27,13 @@ const Skills = () => {
               <span>front-end:</span> HTML/CSS, JavaScript, React
             </li>
             <li>
-              <span>back-end:</span> Node.js
+              <span>back-end:</span> Node.js, Express.js
             </li>
             <li>
-              <span>management tools & libraries:</span> GitHub Desktop, Figma,
-              Trello, Styled Components, Redux Toolkit
+              <span>libraries:</span> Redux Toolkit, Styled Components
+            </li>
+            <li>
+              <span>management tools:</span> GitHub Desktop, Figma, Trello
             </li>
           </ul>
         </div>

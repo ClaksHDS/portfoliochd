@@ -1,11 +1,19 @@
 import React from "react";
+/* React Icons */
 import {
   SlSocialGithub,
   SlSocialLinkedin,
   SlSocialInstagram,
 } from "react-icons/sl";
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io";
-import { FaReact, FaNode } from "react-icons/fa";
+import {
+  FaReact,
+  FaNode,
+  FaTrello,
+  FaFigma,
+  FaGithubSquare,
+} from "react-icons/fa";
+import { SiStyledcomponents } from "react-icons/si";
 
 export const links = [
   { id: 1, text: "home", url: "/" },
@@ -34,4 +42,8 @@ export const skills = [
   { id: 3, icon: <IoLogoJavascript />, text: "JavaScript" },
   { id: 4, icon: <FaReact />, text: "React" },
   { id: 5, icon: <FaNode />, text: "Node.js" },
+  { id: 6, icon: <FaTrello />, text: "Trello" },
+  { id: 7, icon: <FaFigma />, text: "Figma" },
+  { id: 8, icon: <FaGithubSquare />, text: "GitHub Desktop" },
+  { id: 9, icon: <SiStyledcomponents />, text: "Styled Components" },
 ];
