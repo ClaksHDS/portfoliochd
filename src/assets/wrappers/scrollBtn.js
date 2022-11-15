@@ -3,8 +3,8 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   .scroll-btn {
     position: fixed;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     left: 85%;
     bottom: 40px;
