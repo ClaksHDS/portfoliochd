@@ -6,5 +6,16 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Skills from "./Skills";
 import LatestProjects from "./LatestProjects";
+import ScrollButton from "./ScrollButton";
 
-export { Logo, Loading, Navbar, Sidebar, Footer, Hero, Skills, LatestProjects };
+export {
+  Logo,
+  Loading,
+  Navbar,
+  Sidebar,
+  Footer,
+  Hero,
+  Skills,
+  LatestProjects,
+  ScrollButton,
+};

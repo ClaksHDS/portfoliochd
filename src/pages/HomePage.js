@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Skills, LatestProjects } from "../components";
+import { Hero, Skills, LatestProjects, ScrollButton } from "../components";
 
 const HomePage = () => {
   return (
@@ -7,6 +7,7 @@ const HomePage = () => {
       <Hero />
       <Skills />
       <LatestProjects />
+      <ScrollButton />
     </main>
   );
 };
