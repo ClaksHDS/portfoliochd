@@ -124,6 +124,7 @@ ul {
 }
 
 .section-title {
+  text-transform: capitalize;
   margin-bottom: 2rem;
   text-align: center;
 }
