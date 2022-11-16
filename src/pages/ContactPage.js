@@ -1,7 +1,12 @@
 import React from "react";
+import { PageHero } from "../components";
 
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return (
+    <main>
+      <PageHero title='contact' />
+    </main>
+  );
 };
 
 export default ContactPage;

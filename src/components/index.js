@@ -8,6 +8,7 @@ import Skills from "./Skills";
 import LatestProjects from "./LatestProjects";
 import ScrollButton from "./ScrollButton";
 import Error from "./Error";
+import PageHero from "./PageHero";
 
 export {
   Logo,
@@ -20,4 +21,5 @@ export {
   LatestProjects,
   ScrollButton,
   Error,
+  PageHero,
 };
