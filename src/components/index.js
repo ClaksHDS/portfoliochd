@@ -7,6 +7,7 @@ import Hero from "./Hero";
 import Skills from "./Skills";
 import LatestProjects from "./LatestProjects";
 import ScrollButton from "./ScrollButton";
+import Error from "./Error";
 
 export {
   Logo,
@@ -18,4 +19,5 @@ export {
   Skills,
   LatestProjects,
   ScrollButton,
+  Error,
 };
