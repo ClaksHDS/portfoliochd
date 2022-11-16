@@ -1,5 +1,6 @@
 import React from "react";
 import { socials } from "../utils/data";
+
 /* Styles */
 import Wrapper from "../assets/wrappers/footer";
 
@@ -18,6 +19,7 @@ const Footer = () => {
           );
         })}
       </ul>
+
       <p>
         &copy; <span className='logo'>clarisse hd</span> - all rights reserved{" "}
         {""}

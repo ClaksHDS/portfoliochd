@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  padding-top: 2rem;
+  padding: 2rem;
   .projects-center {
     padding-left: 2rem;
     padding-right: 2rem;

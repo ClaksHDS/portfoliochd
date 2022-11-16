@@ -37,6 +37,7 @@ const Sidebar = () => {
             );
           })}
         </ul>
+
         <ul className='social-links'>
           {socials.map((socialLink) => {
             const { id, icon, url } = socialLink;
