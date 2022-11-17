@@ -1,10 +1,11 @@
 import React from "react";
-import { PageHero } from "../components";
+import { PageHero, AboutContent } from "../components";
 
 const AboutPage = () => {
   return (
     <main>
       <PageHero title='about' />
+      <AboutContent />
     </main>
   );
 };

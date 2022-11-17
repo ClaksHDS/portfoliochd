@@ -10,6 +10,7 @@ import ScrollButton from "./ScrollButton";
 import Error from "./Error";
 import PageHero from "./PageHero";
 import Contact from "./Contact";
+import AboutContent from "./AboutContent";
 
 export {
   Logo,
@@ -24,4 +25,5 @@ export {
   Error,
   PageHero,
   Contact,
+  AboutContent,
 };
