@@ -11,6 +11,7 @@ import Error from "./Error";
 import PageHero from "./PageHero";
 import Contact from "./Contact";
 import AboutContent from "./AboutContent";
+import Projects from "./Projects";
 
 export {
   Logo,
@@ -26,4 +27,5 @@ export {
   PageHero,
   Contact,
   AboutContent,
+  Projects,
 };
