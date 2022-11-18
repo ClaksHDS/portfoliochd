@@ -1,5 +1,5 @@
 import React from "react";
-import { socials } from "../utils/data";
+import contact from "../assets/images/contact.svg";
 
 /* React Icons */
 import { SlPencil } from "react-icons/sl";
@@ -9,11 +9,19 @@ import Wrapper from "../assets/wrappers/contact";
 function Contact() {
   return (
     <Wrapper>
-      <article className='mail-contact'>
+      <div className='img-container'>
+        <img
+          src={contact}
+          alt='girl wearing glasses and ready to work'
+          className='contact-img'
+        />
+        <p>let's work together!</p>
+      </div>
+      <div className='mail-contact'>
         <a href='mailto:huetclarisse2@gmail.com' className='mailMe'>
           <SlPencil className='pencil-icon' /> write me
         </a>
-      </article>
+      </div>
     </Wrapper>
   );
 }
