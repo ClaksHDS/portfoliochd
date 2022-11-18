@@ -14,6 +14,7 @@ const Wrapper = styled.section`
       letter-spacing: 0.1rem;
       color: var(--highlightColor);
       font-size: 2rem;
+      line-height: 1.8;
     }
   }
   .contact-img {
