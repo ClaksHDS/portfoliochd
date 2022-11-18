@@ -8,17 +8,21 @@ import Wrapper from "../assets/wrappers/contact";
 
 function Contact() {
   return (
-    <Wrapper>
-      <div className='img-container'>
+    <Wrapper className='section-center contact-center'>
+      <div className='contact-container'>
         <img
           src={contact}
           alt='girl wearing glasses and ready to work'
           className='contact-img'
         />
-        <p>let's work together!</p>
+        <p>let's work together.</p>
       </div>
       <div className='mail-contact'>
-        <a href='mailto:huetclarisse2@gmail.com' className='mailMe'>
+        <a
+          href='mailto:huetclarisse2@gmail.com'
+          className='mailMe'
+          aria-label='email directly the owner of this portfolio'
+        >
           <SlPencil className='pencil-icon' /> write me
         </a>
       </div>
