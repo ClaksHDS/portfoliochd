@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Tabs from "./tabComponent/Tabs";
+import Tabs from "./Tabs";
 import coffee from "../assets/images/coffee.svg";
 /* Styles */
 import Wrapper from "../assets/wrappers/aboutContent";

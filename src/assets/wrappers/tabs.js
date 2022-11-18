@@ -1,66 +1,35 @@
 import styled from "styled-components";
 
-const Wrapper = styled.article`
-  overflow: hidden;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .about {
-    background: var(--backgroundColor);
-    border-radius: var(--borderRadius);
-    display: grid;
-    grid-template-columns: auto 1fr;
-  }
+const Wrapper = styled.section`
+  background: var(--cardBackground);
+  border-radius: var(--borderRadius);
   .tabs {
-    width: 80%;
-    height: auto;
-    min-height: 400px;
-    background: var(--cardBackground);
-    margin: 3.5rem auto 1.5rem;
-    padding: 2rem 1rem;
-    color: var(--textColor);
-    border-radius: var(--borderRadius);
+    display: flex;
   }
-  .nav {
-    border-top-left-radius: var(--borderRadius);
-    border-top-right-radius: var(--borderRadius);
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 1fr;
-    padding: 0;
-  }
-  .nav li {
-    padding: 1rem 0;
-    border: none;
-    font-size: 1.25rem;
-    display: block;
-    background: var(--secondaryColor);
-    width: 50%;
-    text-align: center;
-    border-radius: var(--borderRadius);
-    cursor: pointer;
-    transition: var(--transition);
-  }
-  .nav li:nth-child(2) {
-    border-radius: 0;
-    border-bottom-right-radius: var(--borderRadius);
-    border-bottom-left-radius: var(--borderRadius);
-  }
-  ul li:hover {
-    background: var(--secondaryColor);
-  }
-  .nav li.active {
+  .tab {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     background: var(--backgroundColor);
+    border: transparent;
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
+    padding: 1rem 0;
+    transition: var(--transition);
+    cursor: pointer;
   }
-  .outlet {
-    border-radius: var(--borderRadius);
-    padding: 0;
+  .tab:not(:last-child) {
+    border-right: 1px solid var(--highlightColor);
   }
-  @media screen and (min-width: 990px) {
-    .tabs {
-      width: 600px;
-    }
+  .tab.active {
+    background: var(--cardBackground);
+  }
+  .panel {
+    display: none;
+    padding: 2rem 1rem;
+  }
+  .panel.active {
+    display: block;
   }
 `;
 

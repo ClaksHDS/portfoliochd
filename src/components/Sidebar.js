@@ -32,7 +32,12 @@ const Sidebar = () => {
             const { id, url, text } = link;
             return (
               <li key={id}>
-                <a href={url}>{text}</a>
+                <a
+                  href={url}
+                  aria-label='link to navigate to another page of the site'
+                >
+                  {text}
+                </a>
               </li>
             );
           })}
@@ -43,7 +48,11 @@ const Sidebar = () => {
             const { id, icon, url } = socialLink;
             return (
               <li key={id}>
-                <a href={url} target='_blank'>
+                <a
+                  href={url}
+                  target='_blank'
+                  aria-label='link directing to social media account GitHub, LinkedIn, Instagram'
+                >
                   {icon}
                 </a>
               </li>

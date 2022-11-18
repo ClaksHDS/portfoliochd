@@ -30,7 +30,11 @@ const Hero = () => {
             const { id, icon, url } = socialLink;
             return (
               <li key={id}>
-                <a href={url} target='_blank'>
+                <a
+                  href={url}
+                  target='_blank'
+                  aria-label='link directing to social media account GitHub, LinkedIn, Instagram'
+                >
                   {icon}
                 </a>
               </li>
