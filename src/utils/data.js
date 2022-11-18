@@ -77,26 +77,42 @@ export const latestProjects = [
 export const projects = [
   {
     id: 1,
-    img: "",
+    img: angstrom,
     url: "https://angstrom-project.netlify.app",
-    description: "",
+    title: "Ångstrøm",
+    description:
+      "Cliche bruh big mood meditation lomo pork belly art party listicle pok pok salvia air plant fixie man braid. +1 bespoke meggings raclette copper mug, aesthetic sartorial. Yuccie blog tote bag vice keytar truffaut. Pinterest pop-up food truck occupy DIY fingerstache yr poke glossier +1 street art chillwave tattooed. Cronut synth locavore chillwave Brooklyn four loko.",
+    icon: <IoLogoJavascript />,
+    source: "https://github.com/ClaksHDS/Angstrom",
   },
   {
     id: 2,
-    img: "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Freddit-client-stay-curious.netlify.app",
+    img: reddit,
     url: "https://reddit-client-stay-curious.netlify.app/",
-    description: "",
+    title: "Reddit stay curious",
+    description:
+      "Taiyaki same hot chicken, tofu sriracha Brooklyn literally hexagon vaporware vegan trust fund flannel disrupt bodega boys. Master cleanse twee umami poke echo park shabby chic food truck VHS squid tonx franzen tumeric. Disrupt taxidermy try-hard pok pok, tote bag yr celiac chillwave everyday carry iceland taiyaki. Enamel pin taiyaki mixtape, art party live-edge tilde truffaut. Paleo ramps butcher gastropub tonx letterpress 8-bit. Blue bottle pork belly microdosing, messenger bag flannel hot chicken humblebrag salvia freegan.",
+    icon: <FaReact />,
+    source: "https://github.com/ClaksHDS/reddit-react-app",
   },
   {
     id: 3,
-    img: "http://free.pagepeeker.com/v2/thumbs.php?size=x&url=https%3A%2F%2Finspohomepage-reactproject.netlify.app",
+    img: inspo,
     url: "https://inspohomepage-reactproject.netlify.app/",
-    description: "",
+    title: "Inspirational homepage",
+    description:
+      "3 wolf moon subway tile pinterest jean shorts butcher skateboard mixtape shabby chic gastropub. Fit ethical green juice, distillery cliche fashion axe art party poke portland narwhal viral cred direct trade normcore. Bruh fit iPhone freegan tousled. Palo santo thundercats you probably haven't heard of them health goth air plant vape.",
+    icon: <FaReact />,
+    source: "https://github.com/ClaksHDS/inspo-homepagee",
   },
   {
     id: 4,
-    img: "https://jump-shawnsheep-jump.netlify.app",
+    img: jump,
+    title: "Jump Shawn",
     url: "https://jump-shawnsheep-jump.netlify.app/",
-    description: "",
+    description:
+      "Chillwave raclette lomo tumeric tofu banh mi pour-over. Humblebrag +1 helvetica crucifix sartorial meggings DIY chicharrones cliche. Forage lomo vegan, selvage irony fanny pack sustainable 3 wolf moon. Green juice fam irony readymade bicycle rights, scenester slow-carb. Fashion axe whatever blog taiyaki, trust fund you probably haven't heard of them artisan unicorn pug prism post-ironic mustache dreamcatcher chia vape.",
+    icon: <IoLogoJavascript />,
+    source: "https://github.com/ClaksHDS/Jump-Sheep-Jump",
   },
 ];
