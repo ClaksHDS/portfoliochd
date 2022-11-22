@@ -24,7 +24,9 @@ function Projects() {
               <div className='project-info'>
                 <h4>{title}</h4>
                 <p>{`${description.substring(1, 100)} ...`}</p>
-                <Link className='project-btn'>read more</Link>
+                <Link to={`/projects/${id}`} className='project-btn'>
+                  read more
+                </Link>
               </div>
             </article>
           );
