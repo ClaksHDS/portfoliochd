@@ -5,6 +5,6 @@ export function getProjects() {
   return projects;
 }
 
-export function getProject(projectId) {
-  return projects.find(({ id }) => id === projectId);
+export function getProject(id) {
+  return projects.find((project) => project.id === id);
 }
