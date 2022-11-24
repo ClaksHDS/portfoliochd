@@ -82,6 +82,7 @@ export const projects = [
     title: "Ångstrøm",
     description:
       "Cliche bruh big mood meditation lomo pork belly art party listicle pok pok salvia air plant fixie man braid. +1 bespoke meggings raclette copper mug, aesthetic sartorial. Yuccie blog tote bag vice keytar truffaut. Pinterest pop-up food truck occupy DIY fingerstache yr poke glossier +1 street art chillwave tattooed. Cronut synth locavore chillwave Brooklyn four loko.",
+    languages: "HTML, CSS, JavaScript",
     icon: <IoLogoJavascript />,
     source: "https://github.com/ClaksHDS/Angstrom",
   },
@@ -90,6 +91,7 @@ export const projects = [
     img: reddit,
     url: "https://reddit-client-stay-curious.netlify.app/",
     title: "Reddit stay curious",
+    languages: "HTML, CSS, JavaScript, React",
     description:
       "Taiyaki same hot chicken, tofu sriracha Brooklyn literally hexagon vaporware vegan trust fund flannel disrupt bodega boys. Master cleanse twee umami poke echo park shabby chic food truck VHS squid tonx franzen tumeric. Disrupt taxidermy try-hard pok pok, tote bag yr celiac chillwave everyday carry iceland taiyaki. Enamel pin taiyaki mixtape, art party live-edge tilde truffaut. Paleo ramps butcher gastropub tonx letterpress 8-bit. Blue bottle pork belly microdosing, messenger bag flannel hot chicken humblebrag salvia freegan.",
     icon: <FaReact />,
@@ -100,6 +102,7 @@ export const projects = [
     img: inspo,
     url: "https://inspohomepage-reactproject.netlify.app/",
     title: "Inspirational homepage",
+    languages: "HTML, CSS, JavaScript, React",
     description:
       "3 wolf moon subway tile pinterest jean shorts butcher skateboard mixtape shabby chic gastropub. Fit ethical green juice, distillery cliche fashion axe art party poke portland narwhal viral cred direct trade normcore. Bruh fit iPhone freegan tousled. Palo santo thundercats you probably haven't heard of them health goth air plant vape.",
     icon: <FaReact />,
@@ -110,6 +113,7 @@ export const projects = [
     img: jump,
     title: "Jump Shawn",
     url: "https://jump-shawnsheep-jump.netlify.app/",
+    languages: "HTML, CSS, JavaScript",
     description:
       "Chillwave raclette lomo tumeric tofu banh mi pour-over. Humblebrag +1 helvetica crucifix sartorial meggings DIY chicharrones cliche. Forage lomo vegan, selvage irony fanny pack sustainable 3 wolf moon. Green juice fam irony readymade bicycle rights, scenester slow-carb. Fashion axe whatever blog taiyaki, trust fund you probably haven't heard of them artisan unicorn pug prism post-ironic mustache dreamcatcher chia vape.",
     icon: <IoLogoJavascript />,
