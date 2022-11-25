@@ -4,6 +4,7 @@ const Wrapper = styled.section`
   min-height: 60vh;
   width: 100%;
   display: grid;
+  margin-top: 2rem;
   gap: 2rem;
   place-items: center;
   justify-content: center;
