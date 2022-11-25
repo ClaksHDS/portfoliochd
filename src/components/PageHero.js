@@ -9,9 +9,8 @@ function PageHero({ title, project }) {
     <Wrapper>
       <div className='section-center'>
         <h3>
-          <Link to='/'>home</Link>-
-          {project && <Link to='/projects'> - Projects</Link>}
-          {title}
+          <Link to='/'>home</Link>
+          {project && <Link to='/projects'>Projects</Link>}- {title}
         </h3>
         <div className='img-container'>
           <img src={glasses} alt='pair of glasses' className='hero-logo' />

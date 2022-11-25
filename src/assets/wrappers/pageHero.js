@@ -20,6 +20,9 @@ const Wrapper = styled.section`
       border-bottom: 1px solid var(--secondaryColor);
     }
   }
+  h3 {
+    text-transform: lowercase;
+  }
   .hero-logo {
     display: none;
     width: 100px;

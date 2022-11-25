@@ -1,11 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Project } from "../components";
+import { Link, useParams } from "react-router-dom";
+import { Project, PageHero } from "../components";
+import { projects } from "../utils/data";
+/* Styles */
 import styled from "styled-components";
 
 const SingleProjectPage = () => {
+  const { projectId } = useParams();
+
+  const project = projects.find((project) => projectId === project.title);
   return (
     <Wrapper>
+      <PageHero title={project.title} project />
       <section className='section-center'>
         <div className='navigate-container'>
           <Link to='/projects' className='btn'>
