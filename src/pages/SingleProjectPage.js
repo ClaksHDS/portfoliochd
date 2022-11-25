@@ -7,9 +7,11 @@ const SingleProjectPage = () => {
   return (
     <Wrapper>
       <section className='section-center'>
-        <Link to='/projects' className='btn'>
-          all projects
-        </Link>
+        <div className='navigate-container'>
+          <Link to='/projects' className='btn'>
+            all projects
+          </Link>
+        </div>
         <Project />
       </section>
     </Wrapper>
@@ -19,7 +21,11 @@ const SingleProjectPage = () => {
 /* Styles */
 
 const Wrapper = styled.section`
-  padding: 2.5rem;
+  .navigate-container {
+    display: grid;
+    place-items: center;
+    padding-top: 2.5rem;
+  }
   .btn {
     text-transform: capitalize;
     padding: 0.55rem 1rem;
