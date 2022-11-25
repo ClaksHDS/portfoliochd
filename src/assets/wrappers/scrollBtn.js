@@ -14,6 +14,7 @@ const Wrapper = styled.div`
     background: var(--highlightColor);
     border-color: transparent;
     color: var(--backgroundColor);
+    box-shadow: var(--shadow-1);
   }
   .scroll-btn:hover {
     background: var(--secondaryColor);

@@ -4,7 +4,3 @@ import { projects } from "../utils/data";
 export function getProjects() {
   return projects;
 }
-
-export function getProject(id) {
-  return projects.find((project) => project.id === id);
-}

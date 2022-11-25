@@ -5,39 +5,30 @@ import { projects } from "../utils/data";
 import Wrapper from "../assets/wrappers/projects";
 
 function Projects() {
-  const [readMore, setReadMore] = useState(false);
   return (
-    <>
-      <Wrapper className='section-center'>
-        {projects.map((project) => {
-          const { id, icon, img, title, description } = project;
-          return (
-            <article key={id} className='project-card'>
-              <div className='project-img-container'>
-                <img
-                  src={img}
-                  alt='miniature of the project'
-                  className='project-img'
-                />
-                <span className='project-icon'>{icon}</span>
-              </div>
-              <div className='project-info'>
-                <h4>{title}</h4>
-                <p>{`${description.substring(1, 100)} ...`}</p>
-                <Link
-                  to={`/projects/${id}`}
-                  key={project.id}
-                  {...project}
-                  className='project-btn'
-                >
-                  read more
-                </Link>
-              </div>
-            </article>
-          );
-        })}
-      </Wrapper>
-    </>
+    <Wrapper className='section-center'>
+      {projects.map((project) => {
+        return (
+          <article key={project.id} className='project-card'>
+            <div className='project-img-container'>
+              <img
+                src={project.img}
+                alt='miniature of the project'
+                className='project-img'
+              />
+              <span className='project-icon'>{project.icon}</span>
+            </div>
+            <div className='project-info'>
+              <h4>{project.title}</h4>
+              <p>{`${project.description.substring(1, 100)} ...`}</p>
+              <Link to={`/projects/${project.title}`} className='project-btn'>
+                more info
+              </Link>
+            </div>
+          </article>
+        );
+      })}
+    </Wrapper>
   );
 }
 

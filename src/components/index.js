@@ -12,6 +12,7 @@ import PageHero from "./PageHero";
 import Contact from "./Contact";
 import AboutContent from "./AboutContent";
 import Projects from "./Projects";
+import Project from "./Project";
 
 export {
   Logo,
@@ -28,4 +29,5 @@ export {
   Contact,
   AboutContent,
   Projects,
+  Project,
 };
