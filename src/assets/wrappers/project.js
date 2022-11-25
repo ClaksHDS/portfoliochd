@@ -6,7 +6,7 @@ const Wrapper = styled.main`
     gap: 1rem;
     margin-top: 2.5rem;
     padding: 0 2rem;
-    min-height: 80vh;
+    min-height: 70vh;
   }
   span {
     font-size: 1.1rem;
