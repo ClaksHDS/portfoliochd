@@ -4,7 +4,7 @@ const Wrapper = styled.main`
   .project-center {
     display: grid;
     gap: 1rem;
-    margin-top: 2.5rem;
+    margin: 2.5rem;
     padding: 0 2rem;
     min-height: 70vh;
   }
