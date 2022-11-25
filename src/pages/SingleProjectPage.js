@@ -19,6 +19,7 @@ const SingleProjectPage = () => {
 /* Styles */
 
 const Wrapper = styled.section`
+  padding: 2.5rem;
   .btn {
     text-transform: capitalize;
     padding: 0.55rem 1rem;
