@@ -117,10 +117,6 @@ ul {
   max-width: var(--maxWidth);
 }
 
-.active {
-  color: var(--highlightColor);
-}
-
 @media screen and (min-width: 990px) {
   .section-center {
     width: 95vw;

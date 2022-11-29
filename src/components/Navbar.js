@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/images/logo.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { links } from "../utils/data";
 import { useGlobalContext } from "../context";
 /* React Icons */
@@ -10,6 +10,13 @@ import Wrapper from "../assets/wrappers/navbar";
 
 const Navbar = () => {
   const { openSidebar } = useGlobalContext();
+
+  // This styling will be applied when the route that it links to is selected
+  let activeStyle = {
+    color: "#ff8ba7",
+    fontSize: "1.15rem",
+  };
+
   return (
     <Wrapper>
       <div className='nav-center'>
@@ -31,7 +38,12 @@ const Navbar = () => {
             const { id, text, url } = link;
             return (
               <li key={id}>
-                <Link to={url}>{text}</Link>
+                <NavLink
+                  to={url}
+                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                >
+                  {text}
+                </NavLink>
               </li>
             );
           })}
