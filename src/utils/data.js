@@ -81,7 +81,7 @@ export const projects = [
     url: "https://angstrom-project.netlify.app",
     title: "Ångstrøm",
     description:
-      "Cliche bruh big mood meditation lomo pork belly art party listicle pok pok salvia air plant fixie man braid. +1 bespoke meggings raclette copper mug, aesthetic sartorial. Yuccie blog tote bag vice keytar truffaut. Pinterest pop-up food truck occupy DIY fingerstache yr poke glossier +1 street art chillwave tattooed. Cronut synth locavore chillwave Brooklyn four loko.",
+      " The goal of this CodeCademy project was to design and build the layout for an existing or fictional company (the option I chose). The purpose was to use build a responsive website. I also add some JavaScript that allow me to add sidebar on smaller devices to navigate on the page. All the images used in this project come from Unsplash API.  ",
     languages: "HTML, CSS, JavaScript",
     icon: <IoLogoJavascript />,
     source: "https://github.com/ClaksHDS/Angstrom",
@@ -93,7 +93,7 @@ export const projects = [
     title: "Reddit stay curious",
     languages: "HTML, CSS, JavaScript, React",
     description:
-      "Taiyaki same hot chicken, tofu sriracha Brooklyn literally hexagon vaporware vegan trust fund flannel disrupt bodega boys. Master cleanse twee umami poke echo park shabby chic food truck VHS squid tonx franzen tumeric. Disrupt taxidermy try-hard pok pok, tote bag yr celiac chillwave everyday carry iceland taiyaki. Enamel pin taiyaki mixtape, art party live-edge tilde truffaut. Paleo ramps butcher gastropub tonx letterpress 8-bit. Blue bottle pork belly microdosing, messenger bag flannel hot chicken humblebrag salvia freegan.",
+      " A Front-end project of a Reddit client application for Codecademy's Front End Engineering Path. Reddit is a website where people share links to articles, media and other things on the web. I use the Reddit API to integrate the data to the application. This app allows users to view posts, search for subreddit, and view comments provided by the API. I also add other features to offer a better user experience such as a sidebar that allows users to navigate to one of the most popular subreddit of the moment, a button to scroll back to the top, a search bar, and a sidebar for the smaller devices. You can learn more about the tools I used to create this app on the source code linked below. ",
     icon: <FaReact />,
     source: "https://github.com/ClaksHDS/reddit-react-app",
   },
@@ -104,7 +104,7 @@ export const projects = [
     title: "Inspirational homepage",
     languages: "HTML, CSS, JavaScript, React",
     description:
-      "3 wolf moon subway tile pinterest jean shorts butcher skateboard mixtape shabby chic gastropub. Fit ethical green juice, distillery cliche fashion axe art party poke portland narwhal viral cred direct trade normcore. Bruh fit iPhone freegan tousled. Palo santo thundercats you probably haven't heard of them health goth air plant vape.",
+      " A Front-end project of an inspirational homepage for Codecademy's Front End Engineering Path. This application interacts with different APIs to display the current weather, a background image and an inspirational quote. There is also a dynamic to-do list where users can add some tasks, mark as completed or delete. Users can dynamically change the background, click on a button to display a quote and hide it after. The list of tasks is preserved when a user refreshes the page. You can learn more about the tools I used to create this app on the source code linked below. ",
     icon: <FaReact />,
     source: "https://github.com/ClaksHDS/inspo-homepagee",
   },
@@ -115,7 +115,7 @@ export const projects = [
     url: "https://jump-shawnsheep-jump.netlify.app/",
     languages: "HTML, CSS, JavaScript",
     description:
-      "Chillwave raclette lomo tumeric tofu banh mi pour-over. Humblebrag +1 helvetica crucifix sartorial meggings DIY chicharrones cliche. Forage lomo vegan, selvage irony fanny pack sustainable 3 wolf moon. Green juice fam irony readymade bicycle rights, scenester slow-carb. Fashion axe whatever blog taiyaki, trust fund you probably haven't heard of them artisan unicorn pug prism post-ironic mustache dreamcatcher chia vape.",
+      " This little game was inspired by the T-Rex Dinosaur Game, the browser game developed by Google. This project was realized by following two different tutorials, one for building the game itself with a tutorial video by Ania Kubów. And the other one to create a little sheep that I named Shawn (I was living in Bristol (UK) - the city of the creators of Shawn the Sheep). Shawn was entirely build with CSS following a step by step written by Suzanne Aitchison. You can find the links of both tutorials on the source code below. I truly believe that you can really improve your skills by following tutorials and adjust them to match the project you want to build! ",
     icon: <IoLogoJavascript />,
     source: "https://github.com/ClaksHDS/Jump-Sheep-Jump",
   },
