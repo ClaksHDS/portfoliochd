@@ -13,6 +13,7 @@ import Contact from "./Contact";
 import AboutContent from "./AboutContent";
 import Projects from "./Projects";
 import Project from "./Project";
+import SwitchBtn from "./SwitchBtn";
 
 export {
   Logo,
@@ -30,4 +31,5 @@ export {
   AboutContent,
   Projects,
   Project,
+  SwitchBtn,
 };

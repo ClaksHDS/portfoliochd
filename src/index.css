@@ -19,7 +19,6 @@ html {
   --headlineColor: #33272a;
   --secondaryColor: #ffc6c7;
   --highlightColor: #ff8ba7;
-  --tertiaryColor: #c3f0ca;
 
   /* Fonts */
   --textFont: "Figtree", sans-serif;
@@ -43,6 +42,24 @@ html {
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --shadow-4: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Styles for light & dark themes */
+.light-theme {
+  --backgroundColor: #fffffe;
+  --cardBackground: #faeee7;
+  --textColor: #594a4e;
+  --headlineColor: #33272a;
+  --secondaryColor: #ffc6c7;
+  --highlightColor: #ff8ba7;
+}
+.dark-theme {
+  --backgroundColor: #333333;
+  --cardBackground: #666666;
+  --textColor: #fffffe;
+  --headlineColor: #e6e6e5;
+  --secondaryColor: #feb1b3;
+  --highlightColor: #ff8ba7;
 }
 
 /* Global Styles */

@@ -3,6 +3,7 @@ import logo from "../assets/images/logo.svg";
 import { Link, NavLink } from "react-router-dom";
 import { links } from "../utils/data";
 import { useGlobalContext } from "../context";
+import SwitchBtn from "./SwitchBtn";
 /* React Icons */
 import { SlMenu } from "react-icons/sl";
 /* Styles */
@@ -24,6 +25,7 @@ const Navbar = () => {
           <Link to='/'>
             <img src={logo} alt='clarisse hd logo' />
           </Link>
+          <SwitchBtn />
           <button
             type='button'
             className='toggle-btn'
