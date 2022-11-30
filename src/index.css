@@ -54,12 +54,12 @@ html {
   --highlightColor: #ff8ba7;
 }
 .dark-theme {
-  --backgroundColor: #333333;
-  --cardBackground: #666666;
-  --textColor: #fffffe;
-  --headlineColor: #e6e6e5;
-  --secondaryColor: #feb1b3;
-  --highlightColor: #ff8ba7;
+  --backgroundColor: #22223b;
+  --cardBackground: #4a4e69;
+  --textColor: #f2e9e4;
+  --headlineColor: #c9ada7;
+  --secondaryColor: #9a8c98;
+  --highlightColor: #f8a7dc;
 }
 
 /* Global Styles */
