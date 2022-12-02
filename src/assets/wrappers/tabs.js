@@ -12,6 +12,7 @@ const Wrapper = styled.section`
     width: 100%;
     background: var(--backgroundColor);
     border: transparent;
+    color: var(--headlineColor);
     border-top-right-radius: var(--borderRadius);
     border-top-left-radius: var(--borderRadius);
     padding: 1rem 0;
