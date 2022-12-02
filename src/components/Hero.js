@@ -33,7 +33,7 @@ const Hero = () => {
                 <a
                   href={url}
                   target='_blank'
-                  aria-label='link directing to social media account GitHub, LinkedIn, Instagram'
+                  aria-label='link directing to social media accounts GitHub, LinkedIn, Instagram'
                 >
                   {icon}
                 </a>

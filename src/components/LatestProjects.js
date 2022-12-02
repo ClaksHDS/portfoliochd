@@ -15,7 +15,13 @@ const LatestProjects = () => {
         {latestProjects.map((project) => {
           const { id, url, img, title } = project;
           return (
-            <a key={id} href={url} target='_blank' rel='noopener'>
+            <a
+              key={id}
+              href={url}
+              target='_blank'
+              rel='noopener'
+              aria-label="navigate to the project's website"
+            >
               <article className='project'>
                 <img
                   src={img}
