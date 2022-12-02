@@ -31,6 +31,7 @@ const Navbar = () => {
             className='toggle-btn'
             onClick={openSidebar}
             aria-label='open sidebar'
+            title='open sidebar'
           >
             <SlMenu />
           </button>

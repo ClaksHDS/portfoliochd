@@ -32,7 +32,12 @@ const SwitchBtn = () => {
 
   return (
     <Wrapper>
-      <button className='switch' onClick={toggleTheme}>
+      <button
+        className='switch'
+        onClick={toggleTheme}
+        role='button'
+        title='select dark or light theme'
+      >
         {theme === "light-theme" ? (
           <IoSunnyOutline className='icon' />
         ) : (

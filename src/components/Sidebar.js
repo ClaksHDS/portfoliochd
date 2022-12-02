@@ -23,6 +23,7 @@ const Sidebar = () => {
             type='button'
             onClick={closeSidebar}
             aria-label='close sidebar'
+            title='close sidebar and navigate to the page selected'
           >
             <SlClose />
           </button>

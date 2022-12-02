@@ -20,13 +20,16 @@ function Tabs() {
           <button
             className={`tab ${activeTab(1, "active")}`}
             onClick={() => handleClick(1)}
-            aria-label=''
+            role='button'
+            title='select english version of the text'
           >
             🇬🇧 English
           </button>
           <button
             className={`tab ${activeTab(2, "active")}`}
             onClick={() => handleClick(2)}
+            role='button'
+            title='select french version of the text'
           >
             🇫🇷 Français
           </button>
