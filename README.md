@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A portfolio to present my latest work and my journey into learning how to code from scratch.
+> This project was bootstrapped with Create React App, and is responsive to offer a better user experience.
 
-## Available Scripts
+### Technologies
 
-In the project directory, you can run:
+>
 
-### `npm start`
+- HTML, CSS, JavaScript
+- React _v18.2.0_
+- React Router _6.4.3_
+  >
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Additional libraries
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+>
 
-### `npm test`
+- Normalize.css _v8.0.1_
+- React-icons _v4.4.0_
+- Styled Components _v5.3.6_
+  >
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Styling tools
 
-### `npm run build`
+>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Open Peeps(https://pablostanley.gumroad.com/l/openpeeps?wanted=true&referrer=https%3A%2F%2Fwww.openpeeps.com%2F) : a hand-drawn illustration library used in Figma to create all the illustrations and logo.
+- Happy Hues (https://www.happyhues.co/) : to create a nice color palette.
+- Contrast checker to be sure that the color palette was respecting the rules of accessibility : this one (https://marijohannessen.github.io/color-contrast-checker/) and this one by Adobe Color (https://color.adobe.com/fr/create/color-contrast-analyzer)
+  >
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Management tools
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>
 
-### `npm run eject`
+- **Figma** to wireframe the application and visualize the end result on smaller and bigger screens. I also create the logo and illustrations with Figma.
+  >
+- **GithubDesktop** to handle version control.
+  >
+- **Trello** to create a board with a checklist of all the different steps of the project, and plan my work.
+  >
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> There is a **light and dark theme switch**. It offers a nice touch to the user who can select the theme he/she is the most comfortable with.
+> A hamburger menu that opens a **sidebar on small devices**.
+> When you scroll down, a button appears and allows you to **scroll back to the top**. It's an easier way to access again the menu or sidebar.
