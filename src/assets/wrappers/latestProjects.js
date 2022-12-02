@@ -11,6 +11,9 @@ const Wrapper = styled.section`
   }
   .section-title {
     padding-bottom: 2rem;
+    h2 {
+      color: var(--headlineColor);
+    }
   }
   .project {
     position: relative;
