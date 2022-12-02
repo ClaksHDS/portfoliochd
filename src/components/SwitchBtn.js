@@ -36,7 +36,7 @@ const SwitchBtn = () => {
         className='switch'
         onClick={toggleTheme}
         role='button'
-        title='select dark or light theme'
+        aria-label='select dark or light theme'
       >
         {theme === "light-theme" ? (
           <IoSunnyOutline className='icon' />

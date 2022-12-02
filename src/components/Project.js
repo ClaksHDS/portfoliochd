@@ -41,7 +41,7 @@ function Project() {
             <button
               className='btn'
               role='button'
-              title='navigate to the website'
+              aria-label='navigate to the website'
             >
               <a
                 href={project.source}

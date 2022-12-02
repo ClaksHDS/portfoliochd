@@ -21,7 +21,7 @@ function Tabs() {
             className={`tab ${activeTab(1, "active")}`}
             onClick={() => handleClick(1)}
             role='button'
-            title='select english version of the text'
+            aria-label='select english version of the text'
           >
             🇬🇧 English
           </button>
@@ -29,7 +29,7 @@ function Tabs() {
             className={`tab ${activeTab(2, "active")}`}
             onClick={() => handleClick(2)}
             role='button'
-            title='select french version of the text'
+            aria-label='select french version of the text'
           >
             🇫🇷 Français
           </button>
