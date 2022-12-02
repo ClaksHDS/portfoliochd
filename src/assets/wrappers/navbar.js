@@ -52,7 +52,7 @@ const Wrapper = styled.nav`
         font-size: 1rem;
         color: var(--textColor);
         text-transform: capitalize;
-        padding: 0.5rem;
+        padding: 0.3rem;
         &:hover {
           border-bottom: 1px solid var(--secondaryColor);
         }

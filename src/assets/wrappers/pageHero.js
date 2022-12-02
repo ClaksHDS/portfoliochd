@@ -13,7 +13,7 @@ const Wrapper = styled.section`
     justify-content: space-between;
   }
   a {
-    padding: 0.5rem;
+    padding: 0.1rem;
     color: var(--textColor);
     transition: var(--transition);
     &:hover {
