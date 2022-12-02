@@ -4,7 +4,7 @@ const Wrapper = styled.section`
   height: 80vh;
   display: grid;
   place-items: center;
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 2.75rem;
   .contact-container {
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@ const Wrapper = styled.section`
       text-transform: uppercase;
       letter-spacing: 0.1rem;
       color: var(--highlightColor);
-      font-size: 2rem;
+      font-size: 1.75rem;
       line-height: 1.8;
     }
   }
@@ -24,14 +24,14 @@ const Wrapper = styled.section`
   }
   .mail-contact {
     background: var(--highlightColor);
-    padding: 1rem;
+    padding: 0.55rem;
     border-radius: var(--borderRadius);
     a {
       text-transform: capitalize;
       letter-spacing: 0.1rem;
       color: var(--backgroundColor);
-      font-size: 1.25rem;
-      padding: 0.5rem;
+      font-size: 1.05rem;
+      padding: 0.25rem;
     }
   }
   .mail-contact:hover {
@@ -43,10 +43,10 @@ const Wrapper = styled.section`
       height: 350px;
     }
     .contact-container p {
-      font-size: 3rem;
+      font-size: 2.75rem;
     }
     .mail-contact a {
-      font-size: 1.65rem;
+      font-size: 1.35rem;
       padding: 1rem 1.5rem;
     }
   }
