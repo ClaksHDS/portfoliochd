@@ -36,13 +36,14 @@ const Wrapper = styled.section`
     text-transform: capitalize;
     padding: 0.55rem 1rem;
     background: var(--highlightColor);
-    color: var(--headlineColor);
+    color: var(--btnTextColor);
     border-radius: var(--borderRadius);
     cursor: pointer;
     transition: var(--transition);
   }
   .btn:hover {
     background: var(--secondaryColor);
+    color: var(--headlineColor);
   }
 `;
 export default SingleProjectPage;

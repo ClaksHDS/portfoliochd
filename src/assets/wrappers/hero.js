@@ -30,7 +30,7 @@ const Wrapper = styled.section`
     border-radius: var(--borderRadius);
     cursor: pointer;
     display: inline-block;
-    color: var(--headlineColor);
+    color: var(--btnTextColor);
     margin-left: 1.15rem;
     margin: 2rem;
     display: grid;

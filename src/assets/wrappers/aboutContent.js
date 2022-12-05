@@ -30,11 +30,12 @@ const Wrapper = styled.section`
     background: var(--highlightColor);
     border-radius: var(--borderRadius);
     cursor: pointer;
-    color: var(--headlineColor);
+    color: var(--btnTextColor);
     transition: var(--transition);
   }
   .contact-btn:hover {
     background: var(--secondaryColor);
+    color: var(--headlineColor);
   }
 `;
 

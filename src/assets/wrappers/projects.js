@@ -46,13 +46,14 @@ const Wrapper = styled.section`
     text-transform: capitalize;
     padding: 0.375rem 0.5rem;
     background: var(--highlightColor);
-    color: var(--headlineColor);
+    color: var(--btnTextColor);
     border-radius: var(--borderRadius);
     cursor: pointer;
     transition: var(--transition);
   }
   .project-btn:hover {
     background: var(--secondaryColor);
+    color: var(--headlineColor);
   }
   @media (min-width: 990px) {
     display: grid;

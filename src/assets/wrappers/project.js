@@ -28,8 +28,11 @@ const Wrapper = styled.main`
       transition: var(--transition);
     }
     .btn a {
-      color: var(--headlineColor);
+      color: var(--btnTextColor);
     }
+  }
+  .btn a:hover {
+    color: var(--headlineColor);
   }
   @media (min-width: 990px) {
     .project-center {

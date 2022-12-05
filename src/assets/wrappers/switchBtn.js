@@ -10,6 +10,8 @@ const Wrapper = styled.div`
     border: transparent;
     box-shadow: var(--shadow-1);
     transition: var(--transition);
+    display: grid;
+    place-items: center;
   }
   .icon {
     text-align: center;

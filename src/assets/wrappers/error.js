@@ -25,7 +25,7 @@ const Wrapper = styled.div`
     background: var(--highlightColor);
     border-radius: var(--borderRadius);
     cursor: pointer;
-    color: var(--textColor);
+    color: var(--btnTextColor);
     margin: 2rem auto;
     display: grid;
     place-items: center;

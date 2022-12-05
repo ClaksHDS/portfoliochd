@@ -72,7 +72,7 @@ const Wrapper = styled.section`
     background: var(--highlightColor);
     border-radius: var(--borderRadius);
     cursor: pointer;
-    color: var(--headlineColor);
+    color: var(--btnTextColor);
     margin: 2rem auto;
     display: grid;
     place-items: center;
@@ -81,6 +81,7 @@ const Wrapper = styled.section`
   }
   .skills-btn:hover {
     background: var(--secondaryColor);
+    color: var(--headlineColor);
   }
   @media (min-width: 400px) {
     .projects-center {

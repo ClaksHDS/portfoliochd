@@ -29,13 +29,16 @@ const Wrapper = styled.section`
     a {
       text-transform: capitalize;
       letter-spacing: 0.1rem;
-      color: var(--backgroundColor);
+      color: var(--btnTextColor);
       font-size: 1.05rem;
       padding: 0.25rem;
     }
   }
   .mail-contact:hover {
     background: var(--secondaryColor);
+    a {
+      color: var(--headlineColor);
+    }
   }
   @media screen and (min-width: 990px) {
     .contact-img {

@@ -37,7 +37,7 @@ const Wrapper = styled.aside`
   }
   .links a:hover {
     background: var(--secondaryColor);
-    color: var(--headlineColor);
+    color: var(--textColor);
     padding-left: 3rem;
   }
   .social-links {
