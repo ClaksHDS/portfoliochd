@@ -38,6 +38,7 @@ const Wrapper = styled.section`
   }
   .hero-btn:hover {
     background: var(--secondaryColor);
+    color: var(--headlineColor);
   }
   .social-links {
     display: grid;
