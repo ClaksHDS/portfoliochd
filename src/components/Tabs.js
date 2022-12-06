@@ -45,11 +45,24 @@ function Tabs() {
             gentrify. Direct trade normcore wayfarers twee meh etsy fam.
           </div>
           <div className={`panel ${activeTab(2, "active")} `}>
-            Biographie en français. Kombucha bespoke iPhone humblebrag chambray,
-            tumblr 8-bit gatekeep cardigan af vegan poke. Pinterest pickled
-            lumbersexual swag. Scenester squid taiyaki wayfarers. Cliche butcher
-            microdosing JOMO, art party vice letterpress health goth. Deep v +1
-            tilde truffaut.
+            Après une license et un master en Histoire, je me retrouve face à un
+            marché de l'emploi offrant peu d'opportunité. Fin 2021 et suite à un
+            déménagement de l'autre côté de la Manche, je décide d'entamer une
+            reconversion professionnelle pour devenir développeur Front-End et
+            commence un apprentissage en ligne sur la plateforme CodeCademy,
+            complété par des cours Udemy. <br />
+            <br /> Pendant plus d'un an, en autodidacte, je vais apprendre à
+            coder - milieu qui me semblait tout bonnement inaccessible.
+            Initiation et prise en main de différents langages, de frameworks et
+            de librairies. Moi la passionnée de littérature et d'arts, je
+            découvre avec le code un nouvel univers riche et créatif qui me
+            permet d'écrire sous une toute nouvelle forme, tout en utilisant ma
+            créativité ! <br />
+            Je développe (ah, ah) un intérêt tout particulier pour la création
+            de User Interface suivant les règles d'accessibilité, l'importance
+            d'une interface simple d'utilisation et peut enfin mettre à bon
+            escient mon côté rat de bibliothèque pour éplucher Internet et
+            trouver des informations pour mener à bien un projet.
           </div>
         </div>
       </>
