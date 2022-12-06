@@ -36,13 +36,29 @@ function Tabs() {
         </div>
         <div className='panels'>
           <div className={`panel ${activeTab(1, "active")} `}>
-            Palo santo cold-pressed knausgaard pug banh mi sus. Seitan bespoke
-            fingerstache post-ironic, Brooklyn etsy meggings biodiesel glossier.
-            Intelligentsia pop-up occupy, vaporware humblebrag praxis swag
-            glossier 8-bit cronut disrupt tonx typewriter taiyaki venmo. Tonx
-            helvetica ugh, pitchfork sustainable adaptogen migas master cleanse
-            pork belly chambray photo booth la croix hell of intelligentsia
-            gentrify. Direct trade normcore wayfarers twee meh etsy fam.
+            After studying History in university and getting a master degree, I
+            faced a lack of opportunities in my field.
+            <br />
+            At the end of 2021 and after moving in Bristol (UK), I decide to
+            start something new and begin a new journey. I decide to become a
+            Front-End Developer! I start an online formation on CodeCademy and
+            followed courses on Udemy (plus a lot of reading and watching
+            regarding the subjects with which I was struggling).
+            <br />
+            <br />
+            For more than a year, I spent my day learning how to code -
+            something that seem impossible to me. Learning new languages,
+            frameworks, libraries and how to use them. Passionate about
+            literature and arts, coding offers me a way to write and practice my
+            creativity with a new set of tools. And the good thing with code,
+            it's that basically sky is the limit to what you can create (sky and
+            your ability to understand an extraordinary amount of sources)!
+            <br />I develop a new interest in creating nice User Interface that
+            offer the best user experience possible, and applying accessibility
+            rules to make Internet a pleasant place for everyone. And the book
+            worm in me is extremely pleased with the fact that you have to
+            browse a lot to find information about problems you can encounter
+            while learning and developing projects.
           </div>
           <div className={`panel ${activeTab(2, "active")} `}>
             Après une license et un master en Histoire, je me retrouve face à un
