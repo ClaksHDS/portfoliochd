@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab9aa8af-1038-4458-9f7c-08da238a03c8/deploy-status)](https://app.netlify.com/sites/portfolio-chd/deploys)
+
 # Portfolio
 
 > A portfolio to present my latest work and my journey into learning how to code from scratch.
