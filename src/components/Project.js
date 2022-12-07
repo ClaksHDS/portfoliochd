@@ -25,11 +25,7 @@ function Project() {
           <p className='desc'>{project.description}</p>
           <hr />
           <div className='btn-container'>
-            <button
-              className='btn'
-              role='button'
-              title='navigate to the website'
-            >
+            <button className='btn' title='navigate to the website'>
               <a
                 href={project.url}
                 aria-label='navigate to the website'
@@ -38,11 +34,7 @@ function Project() {
                 live site
               </a>
             </button>
-            <button
-              className='btn'
-              role='button'
-              aria-label='navigate to the website'
-            >
+            <button className='btn' aria-label='navigate to the website'>
               <a
                 href={project.source}
                 aria-label='have a look to the source code'

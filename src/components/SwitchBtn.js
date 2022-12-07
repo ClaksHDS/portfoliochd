@@ -35,7 +35,6 @@ const SwitchBtn = () => {
       <button
         className='switch'
         onClick={toggleTheme}
-        role='button'
         aria-label='select dark or light theme'
       >
         {theme === "light-theme" ? (

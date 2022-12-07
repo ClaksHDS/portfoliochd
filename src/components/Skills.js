@@ -13,7 +13,7 @@ const Skills = () => {
       <section className='skills-section'>
         <div className='skills'>
           {skills.map((skill) => {
-            const { id, icon, text } = skill;
+            const { id, icon } = skill;
             return (
               <div className='skill' key={id}>
                 <p>{icon}</p>

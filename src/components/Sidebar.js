@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/images/logo.svg";
-import { Link } from "react-router-dom";
 import { links, socials } from "../utils/data";
 import { useGlobalContext } from "../context";
 /* React Icons */
