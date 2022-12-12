@@ -22,14 +22,20 @@ function Tabs() {
             onClick={() => handleClick(1)}
             aria-label='select english version of the text'
           >
-            🇬🇧 English
+            <span role='img' aria-label='Flag: United Kingdom'>
+              🇬🇧
+            </span>{" "}
+            English
           </button>
           <button
             className={`tab ${activeTab(2, "active")}`}
             onClick={() => handleClick(2)}
             aria-label='select french version of the text'
           >
-            🇫🇷 Français
+            <span role='img' aria-label='Flag: France'>
+              🇫🇷
+            </span>{" "}
+            Français
           </button>
         </div>
         <div className='panels'>
