@@ -37,7 +37,7 @@ function Tabs() {
             After studying History in university and getting a master degree, I
             faced a lack of opportunities in my field.
             <br />
-            At the end of 2021 and after moving in Bristol (UK), I decide to
+            At the end of 2021 and after moving to Bristol (UK), I decide to
             start something new and begin a new journey. I decide to become a
             Front-End Developer! I start an online formation on CodeCademy and
             followed courses on Udemy (plus a lot of reading and watching
