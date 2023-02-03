@@ -4,7 +4,7 @@ import angstrom from "../assets/images/miniatures/Angstrom.png";
 import reddit from "../assets/images/miniatures/reddit.png";
 import inspo from "../assets/images/miniatures/inspo.png";
 import jump from "../assets/images/miniatures/jump.png";
-import cestnous from "../assets/images/cestnous-eshop.png";
+import eshop from "../assets/images/miniatures/cestnous-eshop.png";
 
 /* React Icons */
 import {
@@ -112,7 +112,7 @@ export const projects = [
   },
   {
     id: 4,
-    img: cestnous,
+    img: eshop,
     title: "E-shop Distillerie C'est Nous",
     url: "https://project-cestnous-eshop.netlify.app/",
     languages: "HTML, CSS, JavaScript, React",
