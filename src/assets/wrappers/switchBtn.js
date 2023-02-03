@@ -12,6 +12,7 @@ const Wrapper = styled.div`
     transition: var(--transition);
     display: grid;
     place-items: center;
+    cursor: pointer;
   }
   .icon {
     text-align: center;
