@@ -3,7 +3,7 @@ import { PageHero, AboutContent } from "../components";
 
 const AboutPage = () => {
   return (
-    <main>
+    <main role='main'>
       <PageHero title='about' />
       <AboutContent />
     </main>

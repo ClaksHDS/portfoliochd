@@ -10,11 +10,15 @@ const SingleProjectPage = () => {
 
   const project = projects.find((project) => projectId === project.title);
   return (
-    <Wrapper>
+    <Wrapper role='main'>
       <PageHero title={project.title} project />
       <section className='section-center'>
         <div className='navigate-container'>
-          <Link to='/projects' className='btn'>
+          <Link
+            to='/projects'
+            className='btn'
+            aria-label='All projects : navigate to the projects page'
+          >
             all projects
           </Link>
         </div>
@@ -26,7 +30,7 @@ const SingleProjectPage = () => {
 
 /* Styles */
 
-const Wrapper = styled.section`
+const Wrapper = styled.main`
   .navigate-container {
     display: grid;
     place-items: center;
@@ -41,7 +45,8 @@ const Wrapper = styled.section`
     cursor: pointer;
     transition: var(--transition);
   }
-  .btn:hover {
+  .btn:hover,
+  .btn:focus {
     background: var(--secondaryColor);
     color: var(--headlineColor);
   }

@@ -21,7 +21,11 @@ function Projects() {
             <div className='project-info'>
               <h4>{project.title}</h4>
               <p>{`${project.description.substring(1, 100)} ...`}</p>
-              <Link to={`/projects/${project.title}`} className='project-btn'>
+              <Link
+                to={`/projects/${project.title}`}
+                className='project-btn'
+                aria-label='More info : navigate to the specific project'
+              >
                 more info
               </Link>
             </div>

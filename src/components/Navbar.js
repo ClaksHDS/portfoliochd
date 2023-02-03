@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <Wrapper>
+    <Wrapper role='navigation' aria-label='principal navigation'>
       <div className='nav-center'>
         <div className='nav-header'>
           <Link to='/'>

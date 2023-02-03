@@ -16,7 +16,8 @@ const Wrapper = styled.aside`
     cursor: pointer;
     margin-top: 0.2rem;
   }
-  .close-btn:hover {
+  .close-btn:hover,
+  .close-btn:focus {
     font-size: 1.85rem;
   }
   .logo {
@@ -35,7 +36,8 @@ const Wrapper = styled.aside`
     color: var(--textColor);
     transition: var(--transition);
   }
-  .links a:hover {
+  .links a:hover,
+  .links a:focus {
     background: var(--secondaryColor);
     color: var(--textColor);
     padding-left: 3rem;
@@ -51,7 +53,8 @@ const Wrapper = styled.aside`
     color: var(--highlightColor);
     transition: var(--transition);
   }
-  .social-links a:hover {
+  .social-links a:hover,
+  .social-links a:focus {
     font-size: 1.6rem;
     color: var(--secondaryColor);
   }

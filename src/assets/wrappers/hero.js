@@ -36,7 +36,8 @@ const Wrapper = styled.section`
     display: grid;
     place-items: center;
   }
-  .hero-btn:hover {
+  .hero-btn:hover,
+  .hero-btn:focus {
     background: var(--secondaryColor);
     color: var(--headlineColor);
   }
@@ -50,7 +51,8 @@ const Wrapper = styled.section`
       color: var(--highlightColor);
       transition: var(--transition);
     }
-    a:hover {
+    a:hover,
+    a:focus {
       color: var(--secondaryColor);
     }
   }

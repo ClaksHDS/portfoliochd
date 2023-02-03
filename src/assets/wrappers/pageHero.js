@@ -16,7 +16,8 @@ const Wrapper = styled.section`
     padding: 0.1rem;
     color: var(--textColor);
     transition: var(--transition);
-    &:hover {
+    &:hover,
+    &:focus {
       border-bottom: 1px solid var(--secondaryColor);
     }
   }

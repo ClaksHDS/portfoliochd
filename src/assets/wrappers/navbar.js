@@ -27,7 +27,8 @@ const Wrapper = styled.nav`
     transition: var(--transition);
     font-size: 1.65rem;
   }
-  .toggle-btn:hover {
+  .toggle-btn:hover,
+  .toggle-btn:focus {
     font-size: 1.85rem;
   }
   .nav-links {
@@ -53,7 +54,8 @@ const Wrapper = styled.nav`
         color: var(--textColor);
         text-transform: capitalize;
         padding: 0.3rem;
-        &:hover {
+        &:hover,
+        &:focus {
           border-bottom: 1px solid var(--secondaryColor);
         }
       }

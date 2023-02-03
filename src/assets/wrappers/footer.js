@@ -16,7 +16,8 @@ const Wrapper = styled.footer`
       color: var(--highlightColor);
       transition: var(--transition);
     }
-    a:hover {
+    a:hover,
+    a:focus {
       font-size: 1.6rem;
       color: var(--secondaryColor);
     }

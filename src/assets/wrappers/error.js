@@ -32,7 +32,8 @@ const Wrapper = styled.div`
     justify-content: center;
     padding: 0.575rem 0.85rem;
   }
-  .btn-link:hover {
+  .btn-link:hover,
+  .btn-link:focus {
     background: var(--secondaryColor);
   }
 

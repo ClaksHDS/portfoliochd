@@ -37,7 +37,11 @@ const LatestProjects = () => {
         })}
       </div>
 
-      <Link to='/projects' className='skills-btn'>
+      <Link
+        to='/projects'
+        className='skills-btn'
+        aria-label='See more : navigate to the projects page'
+      >
         <p>see more</p>
       </Link>
     </Wrapper>

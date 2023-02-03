@@ -6,7 +6,7 @@ import Wrapper from "../assets/wrappers/footer";
 
 const Footer = () => {
   return (
-    <Wrapper>
+    <Wrapper role='contentinfo'>
       <ul className='social-links'>
         {socials.map((socialLink) => {
           const { id, icon, url } = socialLink;

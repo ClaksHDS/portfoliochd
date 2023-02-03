@@ -34,7 +34,8 @@ const Wrapper = styled.section`
       padding: 0.25rem;
     }
   }
-  .mail-contact:hover {
+  .mail-contact:hover,
+  .mail-contact:focus {
     background: var(--secondaryColor);
     a {
       color: var(--headlineColor);

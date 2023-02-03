@@ -33,7 +33,8 @@ const Wrapper = styled.section`
     color: var(--btnTextColor);
     transition: var(--transition);
   }
-  .contact-btn:hover {
+  .contact-btn:hover,
+  .contact-btn:focus {
     background: var(--secondaryColor);
     color: var(--headlineColor);
   }

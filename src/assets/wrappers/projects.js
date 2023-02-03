@@ -51,7 +51,8 @@ const Wrapper = styled.section`
     cursor: pointer;
     transition: var(--transition);
   }
-  .project-btn:hover {
+  .project-btn:hover,
+  .project-btn:focus {
     background: var(--secondaryColor);
     color: var(--headlineColor);
   }

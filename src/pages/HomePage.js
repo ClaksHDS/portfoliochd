@@ -3,7 +3,7 @@ import { Hero, Skills, LatestProjects, ScrollButton } from "../components";
 
 const HomePage = () => {
   return (
-    <main>
+    <main role='main'>
       <Hero />
       <Skills />
       <LatestProjects />
