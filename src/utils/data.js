@@ -4,6 +4,8 @@ import angstrom from "../assets/images/miniatures/Angstrom.png";
 import reddit from "../assets/images/miniatures/reddit.png";
 import inspo from "../assets/images/miniatures/inspo.png";
 import jump from "../assets/images/miniatures/jump.png";
+import cestnous from "../assets/images/cestnous-eshop.png";
+
 /* React Icons */
 import {
   SlSocialGithub,
@@ -110,6 +112,17 @@ export const projects = [
   },
   {
     id: 4,
+    img: cestnous,
+    title: "E-shop Distillerie C'est Nous",
+    url: "https://project-cestnous-eshop.netlify.app/",
+    languages: "HTML, CSS, JavaScript, React",
+    description:
+      "This project is a copy of the existing website of the distillery C'est Nous. The web application uses all the featured you can find on an e-shop : filters to select and search products, add or remove products, a payment option using Stripe and its library, a login and logout system to access the payment page and finalize an order. I also set up a database with Airtable to fetch all the products and retrieve a single product. The app displays all the needed information regarding the distillery, its history, its founders, how to contact them and its policy privacy. The user can authenticate himself/herself via Auth0. The user can also subscribe to the newsletter via the use of FormSpree. I also try to focus on Accessibility on this project to offer the best user experience for everyone.",
+    icon: <FaReact />,
+    source: "https://github.com/ClaksHDS/cest-nous",
+  },
+  {
+    id: 5,
     img: jump,
     title: "Jump Shawn",
     url: "https://jump-shawnsheep-jump.netlify.app/",
