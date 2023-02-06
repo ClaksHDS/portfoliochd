@@ -106,7 +106,7 @@ export const projects = [
     title: "Inspirational homepage",
     languages: "HTML, CSS, JavaScript, React",
     description:
-      " A Front-end project of an inspirational homepage for Codecademy's Front End Engineering Path. This application interacts with different APIs to display the current weather, a background image and an inspirational quote. There is also a dynamic to-do list where users can add some tasks, mark as completed or delete. Users can dynamically change the background, click on a button to display a quote and hide it after. The list of tasks is preserved when a user refreshes the page. You can learn more about the tools I used to create this app on the source code linked below. ",
+      " A Front-end project of an inspirational homepage for Codecademy's Front End Engineering Path. This application interacts with different APIs to display the current weather, a background image and an inspirational quote. There is also a dynamic to-do list where users can add some tasks, mark as completed or delete them. Users can dynamically change the background, click on a button to display a quote and hide it after. The list of tasks is preserved when a user refreshes the page. You can learn more about the tools I used to create this app on the source code linked below. ",
     icon: <FaReact />,
     source: "https://github.com/ClaksHDS/inspo-homepagee",
   },
@@ -117,7 +117,7 @@ export const projects = [
     url: "https://project-cestnous-eshop.netlify.app/",
     languages: "HTML, CSS, JavaScript, React",
     description:
-      "This project is a copy of the existing website of the distillery C'est Nous. The web application uses all the featured you can find on an e-shop : filters to select and search products, add or remove products, a payment option using Stripe and its library, a login and logout system to access the payment page and finalize an order. I also set up a database with Airtable to fetch all the products and retrieve a single product. The app displays all the needed information regarding the distillery, its history, its founders, how to contact them and its policy privacy. The user can authenticate himself/herself via Auth0. The user can also subscribe to the newsletter via the use of FormSpree. I also try to focus on Accessibility on this project to offer the best user experience for everyone.",
+      "This project is a copy of the existing website of the distillery C'est Nous, a friend's company. This web application uses all the featured you can find on an e-shop : filters to select and search products, add or remove products to your cart depending on a stock, a payment option using Stripe and its library, a login and logout system to access the payment page and finalize an order. I also set up a database with Airtable to fetch all the products and retrieve a single product, allowing me to set up all the product's information. The app displays all the needed information regarding the distillery, its history, its founders, how to contact them and its policy privacy. The user can authenticate himself/herself via Auth0 and login via Facebook, Google or GitHub. The user can also subscribe to the newsletter via the use of FormSpree. I also try to focus on Accessibility on this project to offer the best user experience for everyone.",
     icon: <FaReact />,
     source: "https://github.com/ClaksHDS/cest-nous",
   },
