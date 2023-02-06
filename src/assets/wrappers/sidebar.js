@@ -39,7 +39,7 @@ const Wrapper = styled.aside`
   .links a:hover,
   .links a:focus {
     background: var(--secondaryColor);
-    color: var(--textColor);
+    color: var(--btnTextColor);
     padding-left: 3rem;
   }
   .social-links {
@@ -50,7 +50,7 @@ const Wrapper = styled.aside`
   .social-links a {
     font-size: 1.4rem;
     margin: 0 1rem;
-    color: var(--highlightColor);
+    color: var(--iconColor);
     transition: var(--transition);
   }
   .social-links a:hover,

@@ -16,11 +16,12 @@ const Wrapper = styled.section`
     border-top-right-radius: var(--borderRadius);
     border-top-left-radius: var(--borderRadius);
     padding: 1rem 0;
+    font-size: 1.5rem;
     transition: var(--transition);
     cursor: pointer;
   }
   .tab:not(:last-child) {
-    border-right: 1px solid var(--highlightColor);
+    border-right: 1px solid var(--backgroundColor);
   }
   .tab.active {
     background: var(--cardBackground);

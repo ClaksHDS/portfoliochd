@@ -52,14 +52,16 @@ html {
   --headlineColor: #33272a;
   --secondaryColor: #ffc6c7;
   --highlightColor: #ff8ba7;
-  --btnTextColor: #33272a;
+  --btnTextColor: #2a2224;
+  --iconColor: #804654;
+  --highlightCardColor: #60333e;
 }
 .dark-theme {
   --backgroundColor: #22223b;
   --cardBackground: #4a4e69;
   --textColor: #fff5f0;
   --headlineColor: #e9c9c2;
-  --secondaryColor: #423c41;
+  --secondaryColor: #fce1f2;
   --highlightColor: #facde9;
   --btnTextColor: #433936;
 }

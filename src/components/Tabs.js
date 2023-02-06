@@ -47,22 +47,25 @@ function Tabs() {
             start something new and begin a new journey. I decide to become a
             Front-End Developer! I start an online formation on CodeCademy and
             followed courses on Udemy (plus a lot of reading and watching
-            regarding the subjects with which I was struggling).
+            regarding the subjects with which I was struggling the most).
             <br />
             <br />
             For more than a year, I spent my day learning how to code -
             something that seem impossible to me. Learning new languages,
             frameworks, libraries and how to use them. Passionate about
-            literature and arts, coding offers me a way to write and practice my
-            creativity with a new set of tools. And the good thing with code,
-            it's that basically sky is the limit to what you can create (sky and
-            your ability to understand an extraordinary amount of sources)!
+            literature and arts, coding offers me a new way to write and
+            practice my creativity with a brand new set of tools. And the good
+            thing with code, it's that basically sky is the limit to what you
+            can create (sky and your ability to understand an extraordinary
+            amount of resources)!
+            <br />
             <br />I develop a new interest in creating nice User Interface that
             offer the best user experience possible, and applying accessibility
-            rules to make Internet a pleasant place for everyone. And the book
-            worm in me is extremely pleased with the fact that you have to
-            browse a lot to find information about problems you can encounter
-            while learning and developing projects.
+            rules to make Internet a pleasant place for everyone.
+            <br />
+            And the book worm in me is extremely pleased with the fact that you
+            have to browse a lot to find information about problems you can
+            encounter while learning and developing projects.
           </div>
           <div className={`panel ${activeTab(2, "active")} `}>
             Après une licence et un master en Histoire, je me retrouve face à un
@@ -78,11 +81,15 @@ function Tabs() {
             découvre avec le code un nouvel univers riche et créatif qui me
             permet d'écrire sous une toute nouvelle forme, tout en utilisant ma
             créativité ! <br />
-            Je développe un intérêt tout particulier pour la création de User
-            Interface suivant les règles d'accessibilité, l'importance d'une
-            interface simple d'utilisation et peut enfin mettre à bon escient
-            mon côté rat de bibliothèque pour éplucher Internet et trouver des
-            informations pour mener à bien un projet.
+            <br />
+            Je développe un intérêt tout particulier pour la création de design
+            et d'interface respectant au mieux les règles d'accessibilité
+            numérique - de simples corrections se révélant bénéfique pour tous
+            les utilisateurs.
+            <br />
+            Je peux enfin mettre à bon escient mon côté rat de bibliothèque pour
+            éplucher Internet et trouver des informations me permettant de mener
+            à bien différents projets.
           </div>
         </div>
       </>

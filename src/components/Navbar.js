@@ -14,7 +14,7 @@ const Navbar = () => {
 
   // This styling will be applied when the route that it links to is selected
   let activeStyle = {
-    color: "#9d174d",
+    color: "var(--highlightColor)",
     fontSize: "1.15rem",
   };
 

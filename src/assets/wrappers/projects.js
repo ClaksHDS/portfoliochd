@@ -21,9 +21,10 @@ const Wrapper = styled.section`
     padding: 0.25rem 0.6rem;
     border-radius: 50%;
     transform: translate(-50%, 50%);
-    color: var(--highlightColor);
+    color: var(--highlightCardColor);
   }
-  .project-card:hover {
+  .project-card:hover,
+  .project-card:focus {
     box-shadow: var(--shadow-2);
   }
   .project-img {
@@ -54,7 +55,6 @@ const Wrapper = styled.section`
   .project-btn:hover,
   .project-btn:focus {
     background: var(--secondaryColor);
-    color: var(--headlineColor);
   }
   @media (min-width: 990px) {
     display: grid;

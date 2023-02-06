@@ -79,9 +79,9 @@ const Wrapper = styled.section`
     justify-content: center;
     width: 120px;
   }
-  .skills-btn:hover {
+  .skills-btn:hover,
+  .skills-btn:focus {
     background: var(--secondaryColor);
-    color: var(--headlineColor);
   }
   @media (min-width: 400px) {
     .projects-center {

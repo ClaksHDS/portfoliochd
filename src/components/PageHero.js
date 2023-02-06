@@ -9,7 +9,7 @@ function PageHero({ title, project }) {
     <Wrapper>
       <div className='section-center'>
         <h3>
-          <Link to='/'>home </Link>
+          <Link to='/'>Home </Link>
           {project && <Link to='/projects'> - Projects </Link>}- {title}
         </h3>
         <div className='img-container'>

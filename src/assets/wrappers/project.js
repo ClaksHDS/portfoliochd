@@ -31,10 +31,7 @@ const Wrapper = styled.main`
       color: var(--btnTextColor);
     }
   }
-  .btn a:hover,
-  .btn a:focus {
-    color: var(--headlineColor);
-  }
+
   @media (min-width: 990px) {
     .project-center {
       grid-template-columns: 1fr 1fr;

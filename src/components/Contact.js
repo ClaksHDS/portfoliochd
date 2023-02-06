@@ -1,8 +1,5 @@
 import React from "react";
 import contact from "../assets/images/contact.svg";
-
-/* React Icons */
-import { SlPencil } from "react-icons/sl";
 /* Styles */
 import Wrapper from "../assets/wrappers/contact";
 
@@ -23,7 +20,7 @@ function Contact() {
           className='mailMe'
           aria-label='email directly the owner of this portfolio'
         >
-          <SlPencil className='pencil-icon' /> write me
+          write me
         </a>
       </div>
     </Wrapper>

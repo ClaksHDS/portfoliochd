@@ -17,7 +17,7 @@ const Wrapper = styled.div`
   .icon {
     text-align: center;
     font-size: 1.35rem;
-    color: var(--textColor);
+    color: var(--btnTextColor);
   }
 `;
 

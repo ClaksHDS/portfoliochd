@@ -13,7 +13,7 @@ const Wrapper = styled.footer`
     a {
       font-size: 1.4rem;
       margin: 0 1rem;
-      color: var(--highlightColor);
+      color: var(--iconColor);
       transition: var(--transition);
     }
     a:hover,

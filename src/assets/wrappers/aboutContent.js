@@ -36,7 +36,6 @@ const Wrapper = styled.section`
   .contact-btn:hover,
   .contact-btn:focus {
     background: var(--secondaryColor);
-    color: var(--headlineColor);
   }
 `;
 

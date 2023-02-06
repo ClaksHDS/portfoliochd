@@ -39,7 +39,6 @@ const Wrapper = styled.section`
   .hero-btn:hover,
   .hero-btn:focus {
     background: var(--secondaryColor);
-    color: var(--headlineColor);
   }
   .social-links {
     display: grid;
@@ -48,7 +47,7 @@ const Wrapper = styled.section`
     gap: 1rem;
     a {
       font-size: 1.55rem;
-      color: var(--highlightColor);
+      color: var(--iconColor);
       transition: var(--transition);
     }
     a:hover,

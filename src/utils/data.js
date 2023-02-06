@@ -83,7 +83,7 @@ export const projects = [
     url: "https://angstrom-project.netlify.app",
     title: "Ångstrøm",
     description:
-      " The goal of this CodeCademy project was to design and build the layout for an existing or fictional company (the option I chose). The purpose was to use build a responsive website. I also add some JavaScript that allow me to add sidebar on smaller devices to navigate on the page. All the images used in this project come from Unsplash API.  ",
+      " The goal of this CodeCademy project was to design and build the layout for an existing or fictional company (the option I chose). The purpose was to build a responsive website. I also add some JavaScript allowing me to add a sidebar on smaller devices to navigate on the page. All the images used in this project come from Unsplash API. It's the first website I create from scratch, and with time (and the new things I learnt on the way) I add and improve elements. For example, to enhance the user experience I work on the colors contrast to improve accessibility. ",
     languages: "HTML, CSS, JavaScript",
     icon: <IoLogoJavascript />,
     source: "https://github.com/ClaksHDS/Angstrom",
@@ -95,7 +95,7 @@ export const projects = [
     title: "Reddit stay curious",
     languages: "HTML, CSS, JavaScript, React",
     description:
-      " A Front-end project of a Reddit client application for Codecademy's Front End Engineering Path. Reddit is a website where people share links to articles, media and other things on the web. I use the Reddit API to integrate the data to the application. This app allows users to view posts, search for subreddit, and view comments provided by the API. I also add other features to offer a better user experience such as a sidebar that allows users to navigate to one of the most popular subreddit of the moment, a button to scroll back to the top, a search bar, and a sidebar for the smaller devices. You can learn more about the tools I used to create this app on the source code linked below. ",
+      " A Front-end project of a Reddit client application for Codecademy's Front End Engineering Path. Reddit is a website where people share links to articles, media and other things on the web. I use the Reddit API to integrate the data to the application. This app allows users to view posts, search for subreddit, and view comments provided by the API. I also add other features to offer a better user experience such as a sidebar that allows users to navigate to one of the most popular subreddit of the moment, a button to scroll back to the top, a search bar, and a sidebar for the smaller devices. You can learn more about the tools I used to create this app on the source code linked below. Because, I want to improve the accessibility on my projects, I'll have to improve a lot of elements to offer the best experience for everyone. ",
     icon: <FaReact />,
     source: "https://github.com/ClaksHDS/reddit-react-app",
   },

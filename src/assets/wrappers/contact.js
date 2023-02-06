@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  height: 80vh;
+  height: 90vh;
   display: grid;
   place-items: center;
   padding: 2.5rem 2.75rem;
@@ -12,7 +12,7 @@ const Wrapper = styled.section`
     p {
       text-transform: uppercase;
       letter-spacing: 0.1rem;
-      color: var(--highlightColor);
+      color: var(--highlightIconColor);
       font-size: 1.75rem;
       line-height: 1.8;
     }
@@ -37,9 +37,6 @@ const Wrapper = styled.section`
   .mail-contact:hover,
   .mail-contact:focus {
     background: var(--secondaryColor);
-    a {
-      color: var(--headlineColor);
-    }
   }
   @media screen and (min-width: 990px) {
     .contact-img {

@@ -48,7 +48,6 @@ const Wrapper = styled.main`
   .btn:hover,
   .btn:focus {
     background: var(--secondaryColor);
-    color: var(--headlineColor);
   }
 `;
 export default SingleProjectPage;
