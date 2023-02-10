@@ -17,6 +17,7 @@ const Wrapper = styled.section`
     border-top-left-radius: var(--borderRadius);
     padding: 1rem 0;
     font-size: 1.5rem;
+    line-height: 1.5;
     transition: var(--transition);
     cursor: pointer;
   }

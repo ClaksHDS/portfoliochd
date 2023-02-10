@@ -9,7 +9,7 @@ const LatestProjects = () => {
     <Wrapper>
       <div className='section-title'>
         <h2>latest projects</h2>
-        <div className='underline'></div>
+        <div className='underline' aria-hidden='true'></div>
       </div>
       <div className='section-center projects-center'>
         {latestProjects.map((project) => {

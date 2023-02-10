@@ -32,6 +32,8 @@ const ScrollButton = () => {
     <Wrapper>
       <SlArrowUp
         onClick={scrollToTop}
+        role='button'
+        aria-pressed='false'
         className='scroll-btn'
         aria-label='scroll to the top the page'
         style={{ display: visible ? "inline" : "none" }}

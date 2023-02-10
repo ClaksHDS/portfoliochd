@@ -8,10 +8,10 @@ const Skills = () => {
     <Wrapper>
       <div className='section-title'>
         <h2>skills</h2>
-        <div className='underline'></div>
+        <div className='underline' aria-hidden='true'></div>
       </div>
       <section className='skills-section'>
-        <div className='skills'>
+        <div className='skills' aria-hidden='true'>
           {skills.map((skill) => {
             const { id, icon } = skill;
             return (
