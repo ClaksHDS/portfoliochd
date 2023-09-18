@@ -8,7 +8,6 @@ import SwitchBtn from "./SwitchBtn";
 import { SlMenu } from "react-icons/sl";
 /* Styles */
 import Wrapper from "../assets/wrappers/navbar";
-import { FaBold } from "react-icons/fa";
 
 const Navbar = () => {
   const { openSidebar } = useGlobalContext();
