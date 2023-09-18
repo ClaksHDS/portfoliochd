@@ -10,20 +10,12 @@ const Hero = () => {
   return (
     <Wrapper className='section-center'>
       <article className='img-container'>
-        <img
-          src={sweater}
-          alt='illustration of a girl wearing a sweater and smiling'
-          className='small-img'
-        />
-        <img
-          src={standing}
-          alt='illustration of a girl with glasses standing and smiling'
-          className='main-img'
-        />
+        <img src={sweater} alt='' className='small-img' />
+        <img src={standing} alt='' className='main-img' />
       </article>
       <article className='content'>
         <h1>clarisse hd</h1>
-        <p>web developer & enthusiastic learner</p>
+        <p>Consultante en accessibilité numérique et formatrice</p>
 
         <ul className='social-links'>
           {socials.map((socialLink) => {

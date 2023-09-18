@@ -9,11 +9,7 @@ function AboutContent() {
   return (
     <Wrapper className='section-center about-center'>
       <section className='section-center about-center'>
-        <img
-          src={coffee}
-          alt='Girl wearing glasses and holding a cup'
-          className='about-img'
-        />
+        <img src={coffee} alt='' className='about-img' />
         <Tabs />
       </section>
       <div className='btn-container'>

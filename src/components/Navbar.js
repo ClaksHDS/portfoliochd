@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className='nav-center'>
         <div className='nav-header'>
           <Link to='/'>
-            <img src={logo} alt='clarisse hd logo' />
+            <img src={logo} alt='logo clarisse hd' />
           </Link>
           <SwitchBtn />
           <button

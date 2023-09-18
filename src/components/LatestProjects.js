@@ -23,11 +23,7 @@ const LatestProjects = () => {
               aria-label="navigate to the project's website"
             >
               <article className='project'>
-                <img
-                  src={img}
-                  alt='miniature of a website'
-                  className='project-img'
-                />
+                <img src={img} alt='' className='project-img' />
                 <div className='project-info'>
                   <p>{title}</p>
                 </div>

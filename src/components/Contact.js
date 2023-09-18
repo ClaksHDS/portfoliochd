@@ -7,11 +7,7 @@ function Contact() {
   return (
     <Wrapper className='section-center contact-center'>
       <div className='contact-container'>
-        <img
-          src={contact}
-          alt='girl wearing glasses and ready to work'
-          className='contact-img'
-        />
+        <img src={contact} alt='' className='contact-img' />
         <p>let's work together.</p>
       </div>
       <div className='mail-contact'>

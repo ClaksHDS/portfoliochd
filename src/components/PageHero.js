@@ -13,7 +13,7 @@ function PageHero({ title, project }) {
           {project && <Link to='/projects'> - Projects </Link>}- {title}
         </h3>
         <div className='img-container'>
-          <img src={glasses} alt='pair of glasses' className='hero-logo' />
+          <img src={glasses} alt='' className='hero-logo' />
         </div>
       </div>
     </Wrapper>
