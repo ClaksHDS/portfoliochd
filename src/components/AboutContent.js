@@ -14,7 +14,7 @@ function AboutContent() {
       </section>
       <div className='btn-container'>
         <Link to='/contact' className='contact-btn'>
-          contact me
+          Écrivez moi
         </Link>
       </div>
     </Wrapper>

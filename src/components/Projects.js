@@ -26,7 +26,7 @@ function Projects() {
                 className='project-btn'
                 aria-label='More info : navigate to the specific project'
               >
-                more info
+                Lire la suite
               </Link>
             </div>
           </article>

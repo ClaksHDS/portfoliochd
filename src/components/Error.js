@@ -9,9 +9,9 @@ function Error() {
     <Wrapper className='full-page'>
       <img src={error} alt='error 404 page not found' />
       <h3>page not found</h3>
-      <p>the page you're looking for does not exist</p>
+      <p>la page que vous recherchez n'existe pas</p>
       <Link to='/' className='btn-link'>
-        back home
+        retournez à l'accueil
       </Link>
     </Wrapper>
   );

@@ -8,7 +8,7 @@ const LatestProjects = () => {
   return (
     <Wrapper>
       <div className='section-title'>
-        <h2>latest projects</h2>
+        <h2>Mes derniers projets</h2>
         <div className='underline' aria-hidden='true'></div>
       </div>
       <div className='section-center projects-center'>
@@ -38,7 +38,7 @@ const LatestProjects = () => {
         className='skills-btn'
         aria-label='See more : navigate to the projects page'
       >
-        <p>see more</p>
+        <p>Plus de projets</p>
       </Link>
     </Wrapper>
   );

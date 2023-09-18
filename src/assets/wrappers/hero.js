@@ -19,13 +19,11 @@ const Wrapper = styled.section`
   p {
     max-width: 45em;
     margin-bottom: 2rem;
-    text-transform: capitalize;
     text-align: center;
   }
   .hero-btn {
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
-    text-transform: capitalize;
     background: var(--highlightColor);
     border-radius: var(--borderRadius);
     cursor: pointer;

@@ -8,7 +8,7 @@ function Contact() {
     <Wrapper className='section-center contact-center'>
       <div className='contact-container'>
         <img src={contact} alt='' className='contact-img' />
-        <p>let's work together.</p>
+        <p>Travaillons ensemble</p>
       </div>
       <div className='mail-contact'>
         <a
@@ -16,7 +16,7 @@ function Contact() {
           className='mailMe'
           aria-label='email directly the owner of this portfolio'
         >
-          write me
+          Écrivez moi
         </a>
       </div>
     </Wrapper>

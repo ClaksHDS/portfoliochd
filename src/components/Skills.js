@@ -30,7 +30,7 @@ const Skills = () => {
               <span>back-end:</span> Node.js, Express.js
             </li>
             <li>
-              <span>libraries:</span> Redux Toolkit, Styled Components
+              <span>librairies:</span> Redux Toolkit, Styled Components
             </li>
             <li>
               <span>management tools:</span> GitHub Desktop, Figma, Trello

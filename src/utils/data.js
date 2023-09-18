@@ -23,9 +23,9 @@ import {
 import { SiStyledcomponents } from "react-icons/si";
 
 export const links = [
-  { id: 1, text: "home", url: "/" },
-  { id: 2, text: "projects", url: "/projects" },
-  { id: 3, text: "about", url: "/about" },
+  { id: 1, text: "accueil", url: "/" },
+  { id: 2, text: "projets", url: "/projects" },
+  { id: 3, text: "à propos", url: "/about" },
   { id: 4, text: "contact", url: "/contact" },
 ];
 

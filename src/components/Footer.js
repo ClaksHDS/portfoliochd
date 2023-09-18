@@ -25,7 +25,7 @@ const Footer = () => {
       </ul>
 
       <p>
-        &copy; <span className='logo'>clarisse hd</span> - all rights reserved{" "}
+        &copy; <span className='logo'>clarisse hd</span> - tous droits réservés{" "}
         {""}
         {new Date().getFullYear()}
       </p>

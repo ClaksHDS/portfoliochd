@@ -15,7 +15,7 @@ const Hero = () => {
       </article>
       <article className='content'>
         <h1>clarisse hd</h1>
-        <p>Consultante en accessibilité numérique et formatrice</p>
+        <p>Consultante en accessibilité numérique</p>
 
         <ul className='social-links'>
           {socials.map((socialLink) => {
@@ -34,7 +34,7 @@ const Hero = () => {
           })}
         </ul>
         <Link to='/contact' className='hero-btn'>
-          contact me
+          Écrivez moi un mail
         </Link>
       </article>
     </Wrapper>

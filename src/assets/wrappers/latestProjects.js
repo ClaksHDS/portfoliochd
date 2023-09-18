@@ -68,7 +68,6 @@ const Wrapper = styled.section`
 
   .skills-btn {
     font-size: 1rem;
-    text-transform: capitalize;
     background: var(--highlightColor);
     border-radius: var(--borderRadius);
     cursor: pointer;

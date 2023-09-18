@@ -20,7 +20,7 @@ function Project() {
         <section className='content'>
           <h2>{project.title}</h2>
           <p>
-            <span>Languages & Frameworks :</span> {project.languages}
+            <span>Langages & Frameworks :</span> {project.languages}
           </p>
           <p className='desc'>{project.description}</p>
           <hr />
@@ -40,7 +40,7 @@ function Project() {
                 aria-label='have a look to the source code'
                 target='_blank'
               >
-                source code
+                code source
               </a>
             </button>
           </div>

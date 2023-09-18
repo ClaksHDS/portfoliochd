@@ -27,8 +27,6 @@ const Wrapper = styled.section`
     padding: 0.55rem;
     border-radius: var(--borderRadius);
     a {
-      text-transform: capitalize;
-      letter-spacing: 0.1rem;
       color: var(--btnTextColor);
       font-size: 1.05rem;
       padding: 0.25rem;
