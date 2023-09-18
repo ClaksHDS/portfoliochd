@@ -46,14 +46,14 @@ html {
 
 /* Styles for light & dark themes */
 .light-theme {
-  --backgroundColor: #fffffe;
-  --cardBackground: #faeee7;
-  --textColor: #3c3134;
-  --headlineColor: #33272a;
-  --secondaryColor: #ffc6c7;
-  --highlightColor: #ff8ba7;
-  --btnTextColor: #2a2224;
-  --iconColor: #804654;
+  --backgroundColor: #ffffff;
+  --cardBackground: #eef2f1;
+  --textColor: #344c42;
+  --headlineColor: #3d594d;
+  --secondaryColor: #4e7263;
+  --highlightColor: #577f6e;
+  --btnTextColor: #eef2f1;
+  --iconColor: #2c4037;
   --highlightCardColor: #60333e;
 }
 .dark-theme {
