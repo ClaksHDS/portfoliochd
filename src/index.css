@@ -54,16 +54,16 @@ html {
   --highlightColor: #577f6e;
   --btnTextColor: #eef2f1;
   --iconColor: #2c4037;
-  --highlightCardColor: #60333e;
+  --highlightCardColor: #344c42;
 }
 .dark-theme {
-  --backgroundColor: #22223b;
-  --cardBackground: #4a4e69;
+  --backgroundColor: #344c42;
+  --cardBackground: #3d594d;
   --textColor: #fff5f0;
-  --headlineColor: #e9c9c2;
-  --secondaryColor: #fce1f2;
-  --highlightColor: #facde9;
-  --btnTextColor: #433936;
+  --headlineColor: #eef2f1;
+  --secondaryColor: #cdd9d4;
+  --highlightColor: #dde5e2;
+  --btnTextColor: #344c42;
 }
 
 /* Global Styles */

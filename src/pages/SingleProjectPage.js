@@ -19,7 +19,7 @@ const SingleProjectPage = () => {
             className='btn'
             aria-label='All projects : navigate to the projects page'
           >
-            all projects
+            Découvrir tous les projets
           </Link>
         </div>
         <Project />
@@ -37,7 +37,6 @@ const Wrapper = styled.main`
     padding-top: 2.5rem;
   }
   .btn {
-    text-transform: capitalize;
     padding: 0.55rem 1rem;
     background: var(--highlightColor);
     color: var(--btnTextColor);
