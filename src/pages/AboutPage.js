@@ -4,7 +4,7 @@ import { PageHero, AboutContent } from "../components";
 const AboutPage = () => {
   return (
     <main role='main'>
-      <PageHero title='about' />
+      <PageHero title='À propos' />
       <AboutContent />
     </main>
   );

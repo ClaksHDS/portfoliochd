@@ -4,7 +4,7 @@ import { PageHero, Projects } from "../components";
 const ProjectsPage = () => {
   return (
     <main role='main'>
-      <PageHero title='projects' />
+      <PageHero title='projets' />
       <Projects />
     </main>
   );
